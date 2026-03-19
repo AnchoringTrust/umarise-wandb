@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umarise-wandb"
+version = "0.1.0"
+description = "Anchor W&B artifacts to Bitcoin. Zero-touch provenance for ML experiments."
+readme = "README.md"
+license = "Unlicense"
+requires-python = ">=3.8"
+authors = [{ name = "Umarise", email = "partners@umarise.com" }]
+keywords = ["umarise", "wandb", "weights-and-biases", "anchoring", "bitcoin", "proof-of-existence", "opentimestamps", "provenance", "ai-audit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved",
+]
+dependencies = ["umarise-core-sdk>=1.1.0", "wandb>=0.15"]
+
+[project.urls]
+Homepage = "https://umarise.com"
+Documentation = "https://umarise.com/api-reference"
+Repository = "https://github.com/AnchoringTrust/umarise-wandb"
+"Case Study" = "https://umarise.com/case/ai-code-generation"
